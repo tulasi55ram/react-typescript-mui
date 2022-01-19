@@ -1,4 +1,6 @@
-export const mockPassengerDetails = {
+import { IPassengerDetails, IPassengers } from './types'
+
+export const mockPassengerDetails: IPassengerDetails = {
   login: '12',
   id: 7690572,
   node_id: 'MDQ6VXNlcjc2OTA1NzI=',
@@ -31,4 +33,28 @@ export const mockPassengerDetails = {
   following: 0,
   created_at: '2014-05-24T19:57:45Z',
   updated_at: '2021-12-26T15:56:17Z',
+}
+
+export const mockPassgers: IPassengers = {
+  totalPassengers: 28030,
+  totalPages: 2803,
+  data: [
+    {
+      _id: '5ff5b02d522101e10fa9a412',
+      name: 'Percy Townsend',
+      trips: 250,
+      airline: [
+        {
+          id: 5,
+          name: 'Eva Air',
+          country: 'Taiwan',
+          logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/EVA_Air_logo.svg/250px-EVA_Air_logo.svg.png',
+          slogan: 'Sharing the World, Flying Together',
+          head_quaters: '376, Hsin-Nan Rd., Sec. 1, Luzhu, Taoyuan City, Taiwan',
+          website: 'www.evaair.com',
+          established: '1989',
+        },
+      ],
+    },
+  ],
 }
