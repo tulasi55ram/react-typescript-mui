@@ -1,10 +1,9 @@
-import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "./theme";
-import CssBaseline from "@mui/material/CssBaseline";
+import React from 'react'
+import { ThemeProvider } from '@mui/material/styles'
+import theme from './theme'
+import CssBaseline from '@mui/material/CssBaseline'
 
-import HomePage from "./containers/HomePage";
-
+import HomePage from './containers/HomePage'
 
 const App = () => {
   return (
@@ -15,4 +14,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

@@ -1,1 +1,1 @@
-export { getPassengerDetails, getPassengersByPagination } from "./api";
+export { getPassengerDetails, getPassengersByPagination } from './api'

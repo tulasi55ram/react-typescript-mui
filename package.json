@@ -5,11 +5,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject",
     "test:watch": "jest --watch",
-    "tslint-check": "tslint-config-prettier-check ./tslint.json",
-    "lint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
+    "tslint:check": "tslint-config-prettier-check ./tslint.json",
+    "lint:fix": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
     "prepare": "husky install"
   },
   "dependencies": {
