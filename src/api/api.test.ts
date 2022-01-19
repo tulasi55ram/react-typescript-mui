@@ -5,7 +5,7 @@ import { mockPassengerDetails } from './response'
 const userId = '12'
 
 describe("Test API's ", () => {
-  describe("Test getPassenderDetails API ", () => {
+  describe('Test getPassenderDetails API ', () => {
     beforeEach(() => {
       fetchMock.resetMocks()
     })
@@ -23,7 +23,7 @@ describe("Test API's ", () => {
       await expect(fetchPassDetails).rejects.toThrow(error)
     })
   })
-  describe("Test getPassengersByPagination API", () => {
+  describe('Test getPassengersByPagination API', () => {
     beforeEach(() => {
       fetchMock.resetMocks()
     })
